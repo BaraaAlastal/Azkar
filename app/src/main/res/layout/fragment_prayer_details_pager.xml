@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.PrayerDetailsPagerFragment">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8.33dp"
+        android:layout_marginBottom="1dp"
+        android:elevation="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end">
+
+                <TextView
+                    android:id="@+id/tv_3times"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textsize_15sp"
+                    android:fontFamily="@font/jfflat_regular"
+                    android:layout_marginTop="18.00dp"
+                    android:textColor="@color/black"
+                    android:text="ثلاثة مرات" />
+
+                <TextView
+                    android:id="@+id/tv_red_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10.33dp"
+                    android:layout_marginLeft="8.33dp"
+                    android:layout_marginTop="10.33dp"
+                    android:layout_marginBottom="10.33dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="20.00sp"
+                    android:fontFamily="@font/jfflat_regular"
+                    android:textStyle="bold"
+                    android:background="@drawable/icon_text_viewpager"
+                    android:text="3" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_big_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_prayer_details_fragment"
+                android:textColor="@color/blue"
+                android:lineSpacingExtra="10dp"
+                android:paddingHorizontal="11dp"
+                android:paddingBottom="8dp"
+                android:fontFamily="@font/jfflat_regular"
+                android:textStyle="bold"
+                android:textSize="13.33sp"
+                android:layout_gravity="start|center"/>
+
+            <TextView
+                android:id="@+id/tv_src_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_source_prayer_details_fragment"
+                android:textColor="@color/purple"
+                android:background="#f2f2f2f2"
+                android:gravity="center"
+                android:fontFamily="@font/jfflat_regular"
+                android:textStyle="bold"
+                android:textSize="13.33sp"
+                android:layout_marginBottom="0.5dp"
+                android:paddingTop="11.00dp"
+                android:paddingBottom="7.00dp"
+                android:paddingHorizontal="16dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:background="#f2f2f2f2">
+
+
+                <TextView
+                    android:id="@+id/tv_add2Fav"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="إضافة للمفضلة"
+                    android:layout_marginTop="13.33dp"
+                    android:fontFamily="@font/jfflat_regular"/>
+                <ImageView
+                    android:id="@+id/like_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/like_grey"
+                    android:layout_marginRight="11.33dp"
+                    android:layout_marginLeft="6.33dp"
+                    android:layout_marginTop="12.00dp"
+                    android:layout_marginBottom="10.33dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

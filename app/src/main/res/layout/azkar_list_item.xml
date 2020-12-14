@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#f2f2f2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginRight="11.00dp"
+            android:layout_marginLeft="11.00dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="5dp"
+            android:foreground="?android:attr/selectableItemBackground"
+
+           >
+
+            <ImageView
+                android:id="@+id/imageView_list_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginLeft="13.67dp"
+                android:layout_marginTop="6.67dp"
+                android:layout_marginRight="6.67dp"
+                android:layout_marginBottom="6.67dp"
+                app:srcCompat="@drawable/facebook_icon" />
+
+            <LinearLayout
+                android:layout_width="261dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="12.00dp"
+                android:layout_marginRight="65dp"
+                android:layout_marginBottom="10.00dp"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="TextView"
+                    android:textSize="16.67sp"
+                    android:textColor="#a2b0f7"
+                    android:fontFamily="@font/jfflat_regular"/>
+
+                <TextView
+                    android:id="@+id/tv_numOfAzkar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="TextView"
+                    android:textSize="10.00sp"
+                    android:textColor="#808080"
+                    android:fontFamily="@font/jfflat_regular"
+                    />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

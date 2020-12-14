@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_ramadan_quastion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="@android:color/white"
+        android:fontFamily="@font/jfflat_regular"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="start|center"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="16dp"
+        android:text="@string/tv_ramadan_question"
+        android:textColor="#5774f2"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:ignore="UnusedAttribute" />
+
+    <TextView
+        android:lineSpacingExtra="10dp"
+        android:id="@+id/tv_ramadan_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_ramadan_quastion"
+        android:layout_marginTop="-2dp"
+        android:background="@android:color/white"
+        android:fontFamily="@font/jfflat_regular"
+        android:gravity="start|center"
+        android:minHeight="48dp"
+        android:paddingHorizontal="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/tv_ramadan_answer"
+        android:textColor="#808080"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        />
+
+
+</LinearLayout>

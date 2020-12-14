@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.AboutAppFragment"
+    android:background="#f2f2f2"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="144.33dp"
+        android:background="@drawable/about_us_icon"
+        app:elevation="0dp"
+
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_about_app"
+            android:layout_width="match_parent"
+
+            android:layout_height="?actionBarSize"
+            app:navigationIcon="@drawable/back_icon"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="عن التطبيق"
+                android:gravity="start"
+
+                android:textColor="@color/white"
+                android:fontFamily="@font/jfflat_regular"
+                android:textSize="16.67sp"/>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <ImageButton
+                    android:id="@+id/facebook_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/facebook_icon"
+                    android:background="@android:color/transparent"/>
+                <ImageButton
+                    android:id="@+id/twitter_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/twitter_icon"
+                    android:layout_marginLeft="18.67dp"
+                    android:layout_marginRight="18.67dp"
+                    android:background="@android:color/transparent"/>
+                <ImageButton
+                    android:id="@+id/google_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/google_icon"
+                    android:background="@android:color/transparent"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="33.67dp"
+                android:text="عن التطبيق"
+                android:textSize="10.00sp"
+                android:layout_marginRight="10.00dp"
+                android:layout_marginLeft="10.00dp"
+                android:layout_marginTop="13.67dp"
+                android:layout_gravity="bottom"
+                android:gravity="center_vertical|start"
+                android:paddingRight="10.67dp"
+                android:background="@color/white"
+                android:fontFamily="@font/jfflat_regular"
+                />
+        </LinearLayout>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10.00dp"
+        android:layout_marginLeft="10.00dp"
+        android:background="@android:color/white"
+        android:fontFamily="@font/jfflat_regular"
+        android:padding="10dp"
+        android:text="هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربي، حيث يمكنك أن تولد هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التي يولدها التطبيق،إذا كنت تحتاج إلى عدد أكبر من الفقرات كما تريد،النص لن يبدو مقسما ولا يحوي أخطاء لغوية،مولد النص العربي مفيد لمصممي المواقع على وجه الخصوص،حيث يحتاج العميل في كثير من الأحيان أن يطلع على صورة حقيقية ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً،دور مولد النص العربي أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى"
+        android:textColor="#5774f2"
+        android:textSize="15sp"
+        android:lineSpacingExtra="10dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    </TextView>
+
+
+
+</LinearLayout>

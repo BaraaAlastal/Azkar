@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/about_as_item"
+        android:icon="@drawable/about_us_ic"
+        android:title="@string/about_as" />
+
+    <item
+        android:id="@+id/ramadan_quastions_item"
+        android:icon="@drawable/ramadan_qus_icon"
+        android:title="@string/ramadan_quastions" />
+
+
+    <item
+        android:id="@+id/favourite_item"
+        android:icon="@drawable/favourite_icon"
+        android:title="@string/favourite"
+        />
+
+    <item
+        android:id="@+id/azkar_list_item"
+        android:icon="@drawable/azkar_list_icon"
+        android:title="@string/azkar_list" />
+</menu>
